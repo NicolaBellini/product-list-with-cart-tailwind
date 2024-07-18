@@ -2,7 +2,11 @@
 export default {
   content: ["./public/**/*.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "red-hat-text": ['"Red Hat Text"', "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
